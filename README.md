@@ -56,3 +56,4 @@ git checkout specs/latest/1.0/index.html specs/latest/2.0/index.html
 ```
 
 The first command adds an [include] of the repo's `.gitconfig` to the local git config file`.git/config` in your clone of the repo. `.gitconfig` contains the config of the "dater" filter. The remaining commands force a new checkout of the index.html files to smudge them with the date. These two are unnecessary if you plan to edit these files. All are unecessary if you do not care about having the dates shown.
+Created by Jason Scott Heise
